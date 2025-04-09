@@ -1,0 +1,237 @@
+/* General Styles */
+header {
+    background-color: rgb(0, 0, 0); /* Custom blue color */
+    color: white; /* Text color for contrast */
+    padding: 20px;
+    text-align: center;
+    background-image: url('teamwalkout.PNG'); /* Background image */
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No repeat */
+}
+header img {
+    height: 100px; /* Adjust logo size */
+    width: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Center the logo */
+    display: block;
+}
+
+/* Main Content Styling */
+main {
+    background-color: #fbbd18; /* Custom yellow color */
+    padding: 20px;
+    color: black; /* Text color for readability */
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(107, 189, 221); /* Custom blue color */
+    color: white; /* Text color for contrast */
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #1453a0; /* Add a border to separate footer */
+}
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+footer .social-icons a:hover {
+    color: #f0f0f0; /* Lighter shade on hover */
+}
+body {
+    background-color: #f9f9f9; /* Light background for contrast */
+    font-family: 'Arial', sans-serif; /* Modern font */
+    line-height: 1.6; /* Improve text readability */
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Header with Logo */
+header {
+    background-color:#fbbd18;
+    color: rgb(107, 189, 221); /* Your custom blue color */
+}
+header img {
+    height: 100px; /* Increase the height of the logo */
+    width: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add spacing to the right */
+    display: block; /* Ensure proper layout */
+    margin: 0 auto; /* Center the logo horizontally */
+}
+header .team-name {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+/* Typography */
+h1, h2 {
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center headings */
+    margin-bottom: 20px;
+    font-weight: bold; /* Make headings stand out */
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px; /* Slightly rounded corners */
+    width: 75%; /* Full width inside its container */
+    height: auto; /* Maintain aspect ratio */
+    position: center; /* Center the image */
+    display: block; /* Ensure it's treated as a block element */
+}
+
+/* Main Content */
+main {
+    background-color: rgb(107, 189, 221); /* Your custom blue color */
+}
+
+/* Footer */
+footer {
+    background-color:#fbbd18;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #1453a0; /* Add a border to separate footer */
+}
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+footer .social-icons a:hover {
+    color: #f0f0f0; /* Lighter shade on hover */
+}
+
+/* Button Styling */
+button {
+    background-color: #1e69de;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+button:hover {
+    background-color: #1453a0; /* Darker shade on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Spotlight Section */
+.spotlight {
+    border: 2px solid #1e69de; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the frame */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    background-color:rgb(107, 189, 221); /* Your custom blue color */
+    display: block; /* Ensure it's treated as a block element */
+    margin: 20px auto; /* Center horizontally with auto margins */
+    max-width: 100%; /* Ensure it doesn't overflow the container */
+    text-align: center; /* Center content inside the iframe */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Fixture Section */
+.fixture {
+    padding: 20px;
+    text-align: center;
+    background-color: #fbbd18; /* Custom yellow color */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.fixture h2 {
+    color: rgb(0, 0, 0); /* Black text for contrast */
+    margin-bottom: 20px;
+}
+
+/* Fixture List */
+.fixture-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fixture-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.fixture-item img {
+    height: 80px;
+    width: auto;
+    margin: 10px 0;
+}
+
+.fixture-item p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.fixture-item strong {
+    color: #1e69de; /* Custom blue for emphasis */
+}
+
+/* Fixture Table */
+.fixture-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white; /* White background for table */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.fixture-table th, .fixture-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd; /* Light border between cells */
+}
+
+.fixture-table th {
+    background-color: rgb(107, 189, 221); /* Custom blue color */
+    color: white; /* White text for contrast */
+    font-weight: bold;
+}
+
+.fixture-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for alternating rows */
+}
+
+.fixture-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.fixture-table a {
+    color: #1e69de; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fixture-table a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
